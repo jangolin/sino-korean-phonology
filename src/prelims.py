@@ -68,9 +68,14 @@ Compile the whole data frame
 df = pd.concat([hbasic, hangul, rom, mando, canto], axis=1)
 print(df)
 import openpyxl
-df.to_excel('data/df_raw.xlsx')
+
+'''
+Export for inspection and use later
+'''
+
+df.to_excel('data/df_raw.xlsx') '''raw data frame'''
 df.to_json('data/df_raw.json', orient="index")
 
-df1 = pd.concat([hbasic, hangul, rom, mando], axis=1)
+df1 = pd.concat([hbasic, hangul, rom, mando], axis=1) '''Mandarin-Hangul data frame only'''
 df1.to_excel('data/df_mando.xlsx')
 df1.to_json('data/df_mando.json', orient="index")
