@@ -9,3 +9,5 @@ TBC:
 2. Network construction of bi-/tri-character Hanja phrases in Korean using tags on word length, position/order, frequency of usage. 
 
 3. Apply phylogenetic analyses in comparative linguistics to aligned word-list data obtained from Middle Chinese, Middle Korean, and modern forms. Create a substitution model matrix to phonemes, with potential expansion to account for phonological place features & coarticulative changes. 
+
+anki.py : Quick code for scraping definitions from Naver Korean dictionary and compiling spreadsheet for import to Anki flashcard program.
